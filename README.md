@@ -1,4 +1,6 @@
-In this project, let's build **Nxt Trendz** app with Protected Route by applying the concepts we have learned till now.
+# Nxt Trendz App with Protected Route
+
+In this project, I have implemented the **Nxt Trendz** app with a Protected Route, applying the concepts learned so far.
 
 ### Refer to the image below:
 
@@ -37,10 +39,10 @@ In this project, let's build **Nxt Trendz** app with Protected Route by applying
 <summary>Functionality to be added</summary>
 <br/>
 
-The app must have the following functionalities
+The app must have the following functionalities:
 
-- When an unauthenticated user tries to access the Home Route, Products Route or Cart Route, then the page should be navigated to the Login Route using the protected route
-- When an authenticated user tries to access the Home Route, Products Route or Cart Route, then the page should be navigated to the respective route using the protected route
+- When an unauthenticated user tries to access the Home Route, Products Route, or Cart Route, the page should navigate to the Login Route using the protected route.
+- When an authenticated user tries to access the Home Route, Products Route, or Cart Route, the page should navigate to the respective route using the protected route.
 
 </details>
 
@@ -57,7 +59,7 @@ The app must have the following functionalities
 
 #### Description:
 
-Returns a response based on the credentials provided
+Returns a response based on the credentials provided.
 
 #### Sample Success Response
 
@@ -101,42 +103,3 @@ Use these files to complete the implementation:
 - `src/App.js`
 - `src/components/ProtectedRoute/index.js`
 </details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instructions are required for the tests to pass**
-
-- `Home` route should consist of `/` in the URL path
-- `Login` route should consist of `/login` in the URL path
-- `Products` route should consist of `/products` in the URL path
-- `Cart` route should consist of `/cart` in the URL path
-- No need to use the `BrowserRouter` in `App.js` as we have already included in `index.js`
-- User credentials
-
-  ```text
-   username: rahul
-   password: rahul@2021
-  ```
-
-</details>
-
-### Resources
-
-<details>
-<summary>Font-families</summary>
-
-- Roboto
-
-</details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
